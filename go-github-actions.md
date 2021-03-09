@@ -5,10 +5,10 @@
 - In your repo choose the actions tab.
 - Select the Go option.
 - That will create a directory ./.github/workflow
-- You can create your yaml file in here and it will be considered an action.
+- You can create your yaml file in here and it will be considered as an action.
 
-## Example
+## Examples
 
 ### codecov
 
-To get start with codecov, please check [go codecov](go-codecov.md)
+- To add code coverage for your Go project, please check [go codecov](go-codecov.md)

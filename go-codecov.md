@@ -5,14 +5,24 @@
 - Sign in for [codecov](https://codecov.io/).
 - Choose Your repo.
 - Copy the token of that repo.
-  It's not required for public repo.
-- Open badge tab and copy the link.
+  - This step is not required for public repo.
 
 ## GitHub
 
-- In your README.md file put the link you obtained from the badge tab.
+- In your README.md file.
+
+  - Copy that link:
+
+  ```
+    <a href="https://codecov.io/gh/<your_github_user_name>/<your_repo>">
+        <img src="https://codecov.io/gh/<your_github_user_name>/<your_repo>/branch/main/graph/badge.svg"/>
+    </a>
+  ```
+
+  - Change the variables to suit you.
+
 - Open repo setting and add a secret which the key is CODECOV_TOKEN and the value is the token you obtained.
-  It's not required for public repo.
+  - This step is not required for public repo.
 
 ## Snapshot of the code
 
