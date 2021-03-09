@@ -11,7 +11,7 @@
 
 - In your README.md file.
 
-  - Copy that link:
+  - Copy and add that link:
 
   ```
     <a href="https://codecov.io/gh/<your_github_user_name>/<your_repo>">
