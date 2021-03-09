@@ -2,17 +2,17 @@
 
 ## codecov
 
-- Sign up for [codecov](https://codecov.io/).
+- Sign in for [codecov](https://codecov.io/).
 - Choose Your repo.
 - Copy the token of that repo.
-  <cite>It's not required for public repo.</cite>
+  It's not required for public repo.
 - Open badge tab and copy the link.
 
 ## GitHub
 
 - In your README.md file put the link you obtained from the badge tab.
 - Open repo setting and add a secret which the key is CODECOV_TOKEN and the value is the token you obtained.
-  <cite>It's not required for public repo.</cite>
+  It's not required for public repo.
 
 ## Snapshot of the code
 
