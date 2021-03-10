@@ -5,7 +5,6 @@
 - Sign in for [codecov](https://codecov.io/).
 - Choose Your repo.
 - Copy the token of that repo.
-  - This step is not required for public repo.
 
 ## GitHub
 
@@ -22,7 +21,6 @@
   - Change the variables to suit you.
 
 - Open repo setting and add a secret which the key is CODECOV_TOKEN and the value is the token you obtained.
-  - This step is not required for public repo.
 
 ## Snapshot of the code
 
@@ -68,6 +66,8 @@ jobs:
           name: codecov-umbrella
 
 ```
+
+- Change the variable to suit you: <go_version>.
 
 ### To exclude directories that aren't required for test(ex. examples directory)
 
